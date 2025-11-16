@@ -1,8 +1,8 @@
 import os
 import sounddevice as sd
 
-from .encoders import *
-from .decoders import * 
+from ..encoders import *
+from ..decoders import * 
 
 print(sd.query_devices()[7])
 
