@@ -1,6 +1,6 @@
 
 import numpy as np
-from .utils import * 
+from utils import * 
 
 def encode_nrz(data_bits,debug=False):
     """
