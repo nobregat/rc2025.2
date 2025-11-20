@@ -119,9 +119,9 @@ noisy_signal_example = adicionar_ruido(audio, RUIDO)
 noisy_msg_example = decode_nrz(noisy_signal_example, BITS_LENGTH)
 
 # grafico amplitude x tempo
-plot_multiple_signals([audio, noisy_signal_example], BITS_LENGTH, ['sinal limpo', F'sinal com ruido de {RUIDO}'])
+# plot_multiple_signals([audio, noisy_signal_example], BITS_LENGTH, ['sinal limpo', F'sinal com ruido de {RUIDO}'])
 # grafico frequencia x tempo
-plot_multiple_signals_frequency([audio, noisy_signal_example], BITS_LENGTH, ['sinal limpo', F'sinal com ruido de {RUIDO}'])
+# plot_multiple_signals_frequency([audio, noisy_signal_example], BITS_LENGTH, ['sinal limpo', F'sinal com ruido de {RUIDO}'])
 
 # print('ESCUTANDO SOM ORIGINAL')
 # sd.play(audio, SAMPLE_RATE)
